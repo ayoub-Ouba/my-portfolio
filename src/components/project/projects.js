@@ -17,7 +17,7 @@ export default function  Projects(){
     const context= useContext(MultiStepContext);
     console.log(context.op)
     return(<div className="max-md:mt-[40%]">
-        <Modal isOpen={context.op} contentLabel="Pop-up Modal" className="md:w-[800px] lg:w-[900px] w-[500px] md:h-[500px] h-[100px] bg-white border border-white rounded-xl absolute xl:left-[17%] left-[10%] max-md:left-[15%] right-[10%] top-[40%] md:top-[20%] "> 
+        <Modal isOpen={context.op} contentLabel="Pop-up Modal" className="md:w-[800px] w-[90%] lg:w-[900px]  md:h-[500px] h-[100px] bg-white border border-white rounded-xl absolute top-[40%] md:top-[20%] "> 
             <video controls width={800} height={300} className="mx-auto mt-10 border-1 border-white" autoPlay >
                 <source src={`./vedios/${context.id_ved}.mp4`} type="video/mp4" />
             </video>

@@ -65,3 +65,8 @@
   right: 16px;
   text-align: center;
 }
+.ReactModal__Overlay{
+  display: flex !important;
+  justify-content: center! important ;
+
+}

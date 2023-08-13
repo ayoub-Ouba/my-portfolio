@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect"
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
+
 import Social_Media from "./information_socialmedia";
 export default function Information (){
     useEffect(()=>{
@@ -17,7 +18,7 @@ export default function Information (){
                     <Typewriter options={{autoStart:true,loop:true,delay:40,strings:["Full stack web Developer","React js / Next js Developer","MERN Stack Developer"]}}/></div>
 
                     <Social_Media/>
-                    <a href='CV/AYOUB OUBAKKI_CV.pdf' className="text-xl" ><button className='bg-transparent hover:bg-yellow-400 text-yellow-400 font-semibold
+                    <a href='AYOUB OUBAKKI_CV.pdf' className="text-xl"><button className='bg-transparent hover:bg-yellow-400 text-yellow-400 font-semibold
                      hover:text-white  px-4 border border-yellow-400 hover:border-transparent rounded w-[10rem] md:w-[15rem] py-2 md:py-3 hover:shadow-lg hover:shadow-yellow-400' >
                         My Cv
                     </button></a>
