@@ -13,12 +13,7 @@ export default function  Projects(){
         AOS.init({duration:1000});
        
     },[])
-    // useEffect(()=>{
-    //     context.setop(context.op);
-    // },[context.op]);
-    // const closeModal = () => {
-    //      context.setop(false);
-    // };
+
     const context= useContext(MultiStepContext);
     console.log(context.op)
     return(<div className="max-md:mt-[40%]">
