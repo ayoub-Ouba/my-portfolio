@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.images img{
+  position: absolute;
+  height: 70%;
+  left:75%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  transition: bottom 1s ,left 1s; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.images:hover .imag1{
+  bottom: 200px;
+}
+.images:hover .imag2{
+  left: 70%;
+}
+
+.partie1_nav{
+  @apply md:flex w-[100%]
+}
+
+.partie2_nav{
+  @apply flex md:w-[46%] lg:w-[35%] w-[10%] 
+}
+.ul{
+  @apply md:flex md:items-center md:pb-0 pb-12 absolute md:static  w-full
+              left-0 md:w-auto max-md:pl-0  transition-all duration-200 ease-in
+}
+.responsive_lien{
+  @apply max-md:w-56 max-md:bg-[#00B3FF] max-md:mt-[4.5rem] max-md:pt-14 z-10 max-md:h-screen duration-500
+}
+.slider_resp_nav{
+  @apply text-4xl absolute left-3 top-[2rem] md:hidden  cursor-pointer
+}
+.li_resp{
+  @apply max-md:w-52 max-md:px-5  hover:max-md:bg-white  max-md:py-3 hover:max-md:text-[#62646a] max-md:font-semibold text-white max-md:cursor-pointer;
+
+}
+
+.afficher{
+  @apply md:visible duration-500;
+}
+.cacher{
+  @apply md:hidden duration-500;
+}
+
+.ul_categories{
+  @apply flex md:pb-0 md:static overflow-hidden left-0 md:w-auto max-md:pl-0  transition-all duration-200 ease-in
+}
+
+.close{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  border-radius: 50%;
+  background-color: #fbbf24;
+  color: white;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  text-align: center;
 }
