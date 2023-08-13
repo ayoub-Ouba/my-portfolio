@@ -7,7 +7,7 @@ export default function AboutMe(){
     useEffect(()=>{
         AOS.init({duration:1000})
     },[])
-    return(<div className="text-white h-[400px] flex justify-center my-[5%] md:my-[10%] w-full  ">
+    return(<div className="text-white h-[400px] flex justify-center my-[5%]  md:my-[10%] w-full  ">
         <a name="about_me"></a>
         <div className="mr-5 mt-7 opacity-75 ">
             <img src="./images/tab2.png" className="hidden lg:inline-block w-[200px] border-b-2 border-[#ffff00] shadow-md  shadow-[#ffff00] " data-aos="fade-right"/>

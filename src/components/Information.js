@@ -19,7 +19,7 @@ export default function Information (){
                     <Typewriter options={{autoStart:true,loop:true,delay:40,strings:["Full stack web Developer","React js / Next js Developer","MERN Stack Developer"]}}/></div>
 
                     <Social_Media/>
-                    <a href='CV/ab.pdf' className="text-xl" target="_blank"><button className='bg-transparent hover:bg-yellow-400 text-yellow-400 font-semibold
+                    <a href='b.pdf' className="text-xl" target="_blank"><button className='bg-transparent hover:bg-yellow-400 text-yellow-400 font-semibold
                      hover:text-white  px-4 border border-yellow-400 hover:border-transparent rounded w-[10rem] md:w-[15rem] py-2 md:py-3 hover:shadow-lg hover:shadow-yellow-400' >
                         My Cv
                     </button></a>
