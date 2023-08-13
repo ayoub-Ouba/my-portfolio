@@ -14,7 +14,7 @@ export default function  Project (props){
                 <div className=" cursor-pointer" onClick={()=>{context.setop(true);context.setid_ved(props.project.id)}}>
                     <img  src={props.project.image} alt="" className="h-full rounded-lg rounded-t-lg" />
                 </div>
-                <div className="h-[40%] ">
+                <div className=" ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-white text-center ">{props.project.titre}</h5>
                     
                 </div>

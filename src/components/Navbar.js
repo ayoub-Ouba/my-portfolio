@@ -2,7 +2,7 @@ import { useState } from "react";
 export default function Navbar(){
     const Links = [
         { name: "Home", link: "#home" },
-        { name: "About me", link: "#about_me" },  { name: "Projects", link: "/devenir_vendor" }
+        { name: "About me", link: "#about_me" },  { name: "Projects", link: "#projects" }
       ];    
       const [open,setOpen]=useState(false)
 return(<div className='w-full max-md:fixed max-md:top-0 max-md:left-0 max-md:z-10'>
