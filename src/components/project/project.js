@@ -26,10 +26,10 @@ export default function  Project (props){
     </div>
     <div class="p-5">
        
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black dark:text-white">{props.project.titre}</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black ">{props.project.titre}</h5>
        
 
-        <p className={`font-normal text-black dark:text-gray-400  ${isExpanded && props.project.id==num_pr? "line-clamp-none" : "line-clamp-3"}`}>
+        <p className={`font-normal text-black ${isExpanded && props.project.id==num_pr? "line-clamp-none" : "line-clamp-3"}`}>
             {props.project.description}
         </p>
 
