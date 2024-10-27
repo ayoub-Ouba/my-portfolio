@@ -1,7 +1,7 @@
 export default function Social_Media(){
     return(<div className="mb-5 flex">
        
-        <div className="border-2 rounded-full border-[#ffff00] mr-5 p-2.5 cursor-pointer"><a href="https://wa.me/+212682056234?text=Hi AYOUB OUBAKKI">
+        <div className="border-2 rounded-full border-[#ffff00] mr-5 p-2.5 cursor-pointer"><a href="https://wa.me/+33770066005?text=Hi AYOUB OUBAKKI" target="_blank">
        <svg  viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="w-[25px] h-[25px]">
     <title>whatsapp [#128]</title>
     <desc>Created with Sketch.</desc>
@@ -14,7 +14,7 @@ export default function Social_Media(){
     </g>
   </svg></a>
         </div>
-        <div className="border-2 rounded-full border-[#ffff00] mr-5 p-2.5 cursor-pointer"><a href="https://www.linkedin.com/in/ayoub-oubakki-768ba6255/">
+        <div className="border-2 rounded-full border-[#ffff00] mr-5 p-2.5 cursor-pointer"><a href="https://www.linkedin.com/in/ayoub-oubakki-768ba6255/" target="_blank">
         <svg  viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="w-[25px] h-[25px]">
             <title>linkedin [#161]</title>
             <desc>Created with Sketch.</desc>
@@ -27,7 +27,7 @@ export default function Social_Media(){
             </g>
         </svg></a></div>
         
-    <div className="border-2 rounded-full border-[#ffff00] mr-5 p-2.5 cursor-pointer"><a href="https://github.com/ayoub-Ouba">
+    <div className="border-2 rounded-full border-[#ffff00] mr-5 p-2.5 cursor-pointer"><a href="https://github.com/ayoub-Ouba" target="_blank">
     <svg  viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="w-[25px] h-[25px]">
     <title>github [#142]</title>
     <desc>Created with Sketch.</desc>
