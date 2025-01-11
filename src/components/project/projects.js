@@ -15,7 +15,6 @@ export default function  Projects(){
     },[])
 
     const context= useContext(MultiStepContext);
-    console.log(context.op)
     return(<div className="max-md:mt-[70%] my-10"> <a name="projects"></a>
           
         <h1 data-aos="fade-up-righ" className="text-[2rem] md:text-[3rem] text-[#ffff00] text-center mb-10" >
@@ -26,7 +25,7 @@ export default function  Projects(){
         
             {Projects_data.map((pr)=>{return(
                
-                    <Project project={pr} id={pr.id}/> 
+                    <Project project={pr} id={pr.id} key={pr.id}/> 
                )
             })}
         

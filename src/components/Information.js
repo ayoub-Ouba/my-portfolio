@@ -16,7 +16,7 @@ export default function Information (){
                     <div className="text-[2rem] md:text-[2rem]">Hi, I'm</div>
                     <div className="text-[#ffff00] text-[3rem] md:text-[5rem]">OUBAKKI AYOUB</div>
                     <div className="text-[2rem] md:text-[2.5rem] mb-3">
-                    <Typewriter options={{autoStart:true,loop:true,delay:40,strings:["Full stack web Developer","React js / Next js Developer","MERN Stack Developer"]}}/></div>
+                    <Typewriter options={{autoStart:true,loop:true,delay:40,strings:["Full stack web Developer","MERN Stack Developer"]}}/></div>
 
                     <Social_Media/>
                     <a href='./Pdf/Oubakki Ayoub.pdf'  className="text-xl" target="_blank"><button className='bg-transparent hover:bg-yellow-400 text-yellow-400 font-semibold
