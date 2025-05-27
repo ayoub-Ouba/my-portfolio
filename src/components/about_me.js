@@ -10,7 +10,7 @@ export default function AboutMe(){
     return(<div className="text-white h-[400px] flex justify-center my-[5%]  md:my-[10%] w-full  ">
         <a name="about_me"></a>
         <div className="mr-5 mt-7 opacity-75 ">
-            <img src="images/profil.png" className="hidden lg:inline-block w-[200px] h-[280px] border-b-2 border-[#ffff00] shadow-md  shadow-[#ffff00] " data-aos="fade-right"/>
+            <img src="images/profile.jpg" className="hidden lg:inline-block w-[200px] h-[280px] border-b-2 border-[#ffff00] shadow-md  shadow-[#ffff00] " data-aos="fade-right"/>
         </div>
         <div data-aos="fade-left " className='max-md:ml-0 max-[917px]:ml-[110px]'>
             <h1 className="text-[2rem] md:text-[3rem] text-[#ffff00] text-left w-full">
